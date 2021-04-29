@@ -1,0 +1,19 @@
+.mainDivAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://www.savepoint.blog.br/wp-content/uploads/2018/01/Light-Grey-Background-Hd-5-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.topicDiv {
+    align-self: center;
+    width: 80%;
+}
+
+.source {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0% 1% 0%;
+}

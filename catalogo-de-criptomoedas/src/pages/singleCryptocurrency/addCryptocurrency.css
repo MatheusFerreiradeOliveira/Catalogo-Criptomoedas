@@ -1,0 +1,40 @@
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://www.savepoint.blog.br/wp-content/uploads/2018/01/Light-Grey-Background-Hd-5-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.criptoForm {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 0px 0px 7px #77aaff;
+    margin: 5%;
+    width: 30%;
+    height: 75vh;
+}
+
+.title {
+    align-self: center;
+    font-size: 20px;
+}
+
+.backIcon:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px black;
+}
+
+@media(max-width: 650px) {
+    .title {
+        align-self: center;
+        font-size: 15px;
+    }
+    .criptoForm {
+        height: 80vh;
+    }
+}
+
